@@ -29,7 +29,8 @@ IMAGE_INPUT_PATH = '/train/'
 IMAGE_OUTPUT_PATH = '/images/'
 MASK_INPUT_PATH = '/train_masks/'
 MASK_OUTPUT_PATH = '/masks/'
-IMAGE_SIZE = (512, 512)
+IMAGE_SIZE = (128, 128)
+MASK_SIZE = (128, 128)
 
 
 def get_image_indices():
